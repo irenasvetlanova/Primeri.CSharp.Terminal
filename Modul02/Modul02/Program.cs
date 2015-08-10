@@ -22,6 +22,7 @@ namespace Modul02
 			//За програмата 
 			Console.WriteLine ( program_name );
 			Console.WriteLine ( "Версия: " + program_version + "\n\n");
+	
 
 			//Писане в конзола
 			Console.Write ( a );
