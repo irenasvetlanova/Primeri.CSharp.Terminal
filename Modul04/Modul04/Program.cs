@@ -6,10 +6,17 @@ namespace Modul04
 	{
 		public static void Main (string[] args)
 		{
-			for (int i = 0; i <= 5; i += 2) 
+			string[] _table = { "Иван", "Гошо", "Гергана" };
+
+			//Антетка на таблица
+			Console.WriteLine ("Име");
+			Console.WriteLine ("==========");
+
+			//Тяло на таблица
+			for (int i = 0; i < _table.Length; i++) 
 			{
 				//Код на цикъла
-				Console.WriteLine (i.ToString ());
+				Console.WriteLine ( _table [i]);
 			}
 		}
 	}
