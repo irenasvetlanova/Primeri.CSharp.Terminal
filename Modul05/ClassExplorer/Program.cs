@@ -11,14 +11,14 @@ namespace ClassExplorer
 		private string _userFName = "";
 		private string _userLName = "";
 
-		public string _userName
+	public string _userName
 		{
-			get { return _userName; }
+		get { return _userName; }
 		}
 
-		public string _userPass
+	public string _userPass
 		{
-			get { return _userPass; }
+		get { return _userPass; }
 		}
 
 		public string _userID
@@ -48,7 +48,8 @@ namespace ClassExplorer
 
 		private bool checkUser (string _user, string _pass)
 		{
-			if (_user == "user" && _pass == "pass")
+		if (_user == "user" && _pass == "pass")
+		{
 			_userName = _user; _userPass = _pass;
 		
 				//Попълване на пропъртита
@@ -75,7 +76,7 @@ namespace ClassExplorer
 
 			//Достъпване на клас
 			_person.userFName = "Първо име: ";
-
+	
 			Console.WriteLine ( _person.UserFName + " " + _person.UserLName);
 
 		//Console.WriteLine (_person.getWelcomeMessage () );
