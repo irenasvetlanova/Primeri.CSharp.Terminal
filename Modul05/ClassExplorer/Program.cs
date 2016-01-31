@@ -11,35 +11,35 @@ namespace ClassExplorer
 		private string _userFName = "";
 		private string _userLName = "";
 
-	public string _userName
+	public string userName
 		{
 		get { return _userName; }
 		}
 
-	public string _userPass
+	public string userPass
 		{
 		get { return _userPass; }
 		}
 
-		public string _userID
+		public string userID
 		{
 			get { return _userID; }
 			set { _userID = value; }
 		}
 
-		public string _userFName
+		public string userFName
 		{
 			get { return _userFName; }
 			set { _userFName = value; }
 		}
 
-		public string _userLName
+		public string userLName
 		{
 			get { return _userLName; }
 			set { _userLName = value; }
 		}
 
-	}
+	//}
 	public person (string _user, string _pass)
 		{
 			checkUser (_user, _pass);
@@ -62,7 +62,7 @@ namespace ClassExplorer
 			}
 		return false;
 	}
-
+	}
 	class MainClass
 	{
 		
@@ -77,7 +77,7 @@ namespace ClassExplorer
 			//Достъпване на клас
 			_person.userFName = "Първо име: ";
 	
-			Console.WriteLine ( _person.UserFName + " " + _person.UserLName);
+			Console.WriteLine ( _person.userName + " " + _person.userLName);
 
 		//Console.WriteLine (_person.getWelcomeMessage () );
 		}
